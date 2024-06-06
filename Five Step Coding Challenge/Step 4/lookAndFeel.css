@@ -1,0 +1,31 @@
+/* <!-- Welcome to your Lesson 4 - Challenge 2
+Having added all the HTML we require for the recipe page it is now time to start styling the page.
+The most common and most useful location for CSS style rules in a separate file that is linked to one or more HTML documents that are targets of the styles. Why? Because a central change made to a style will update all the web pages that link to and use that style. Central location changes are easier to manage than multiple duplicated style content saved across many documents. So let's do that now.
+ 
+In particular, you will:
+Style the default text font
+Size the main heading
+Color the headings
+Make the heading text uppercase -->
+ */
+
+ body {
+    font-family: Arial;
+    color: slategray;
+}
+
+h1{
+    font-size: 300%;
+}
+
+h1,h2{
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+
+
+img{
+    width: 100%;
+}
